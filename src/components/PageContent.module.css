@@ -1,0 +1,59 @@
+.page-content-container {
+  padding: 10px;
+  flex: 1;
+}
+
+.page-content-container *{
+  margin: 0;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.input-component {
+  width: 100%;
+  margin: 0;
+  outline: none;
+  border: none;
+  font-size: 1.125rem;
+  padding: 5px;
+  background-color: rgb(246, 246, 246);
+  font-family: inherit;
+  min-height: 20px;
+}
+
+.input-component * {
+  margin: 0;
+}
+
+.input-component:hover {
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.floating-menu {
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 10px 30px;
+  z-index: 2;
+}
+
+.floating-menu li {
+  cursor: pointer
+}
+
+.floating-menu li:hover {
+  color: red;
+}
